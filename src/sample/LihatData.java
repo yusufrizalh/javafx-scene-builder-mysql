@@ -14,8 +14,7 @@ import java.sql.SQLException;
 
 public class LihatData {
     // inisialisasi komponen dalam layout
-    private ObservableList<Peserta> listOfPeserta =
-            FXCollections.observableArrayList();
+    private ObservableList<Peserta> listOfPeserta = FXCollections.observableArrayList();
 
     @FXML
     private TableView<Peserta> tabel_peserta;
