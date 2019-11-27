@@ -44,7 +44,8 @@ public class Login {
         } else {
             tampilkanAlert(Alert.AlertType.INFORMATION, window,
                     "LOGIN BERHASIL", "Selamat Datang: " + email);
-            // diarahkan ke dashboard 
+            // diarahkan ke dashboard
+            // memangil form dashboard
         }
     }
 
