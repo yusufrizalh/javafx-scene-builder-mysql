@@ -34,19 +34,23 @@ public class Dashboard {
     }
 
     // method-method untuk masing-masing button
-    void lihatData(ActionEvent event) throws IOException {
+    public void lihatData(ActionEvent event) throws IOException {
         panggilLayout("lihat_data");
     }
 
-    void tambahData(ActionEvent event) throws IOException {
+    public void initialize() throws IOException {
+        panggilLayout("lihat_data");
+    }
+
+    public void tambahData(ActionEvent event) throws IOException {
         panggilLayout("tambah_data");
     }
 
-    void ubahData(ActionEvent event) throws IOException {
+    public void ubahData(ActionEvent event) throws IOException {
         panggilLayout("ubah_data");
     }
 
-    void hapusData(ActionEvent event) throws IOException {
+    public void hapusData(ActionEvent event) throws IOException {
         panggilLayout("hapus_data");
     }
 }

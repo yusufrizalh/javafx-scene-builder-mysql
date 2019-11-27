@@ -3,6 +3,12 @@ package sample;
 import java.sql.*;
 
 public class KoneksiJdbc {
+
+    public Connection getConnection() throws SQLException {
+        Connection connection = DriverManager.getConnection(DB_URL, DB_USER, DB_PASS);
+        return connection;
+    }
+
     // konfigurasi untuk koneksi ke database
     private static final String DB_URL = "jdbc:mysql://localhost:3306/pelatihan?serverTimezone=UTC";
     private static final String DB_USER = "root";
