@@ -5,7 +5,7 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane prefHeight="300.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Dashboard">
+<AnchorPane fx:id="anchorPaneLayout" prefHeight="300.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Dashboard">
    <children>
       <HBox prefHeight="50.0" prefWidth="600.0" style="-fx-background-color: #323499;">
          <children>
@@ -32,22 +32,22 @@
          </padding></HBox>
       <VBox layoutY="50.0" prefHeight="250.0" prefWidth="200.0" style="-fx-background-color: #323499;">
          <children>
-            <Button mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" style="-fx-background-color: #ffffff;" text="Lihat Data" textAlignment="CENTER" textFill="#2215da">
+            <Button fx:id="btn_lihat_data" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" style="-fx-background-color: #ffffff;" text="Lihat Data" textAlignment="CENTER" textFill="#2215da">
                <VBox.margin>
                   <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                </VBox.margin>
             </Button>
-            <Button mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" style="-fx-background-color: #ffffff;" text="Tambah Data" textAlignment="CENTER" textFill="#2215da">
+            <Button fx:id="btn_tambah_data" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" style="-fx-background-color: #ffffff;" text="Tambah Data" textAlignment="CENTER" textFill="#2215da">
                <VBox.margin>
                   <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                </VBox.margin>
             </Button>
-            <Button mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" style="-fx-background-color: #ffffff;" text="Ubah Data" textAlignment="CENTER" textFill="#2215da">
+            <Button fx:id="btn_ubah_data" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" style="-fx-background-color: #ffffff;" text="Ubah Data" textAlignment="CENTER" textFill="#2215da">
                <VBox.margin>
                   <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                </VBox.margin>
             </Button>
-            <Button mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" style="-fx-background-color: #ffffff;" text="Hapus Data" textAlignment="CENTER" textFill="#2215da">
+            <Button fx:id="btn_hapus_data" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" style="-fx-background-color: #ffffff;" text="Hapus Data" textAlignment="CENTER" textFill="#2215da">
                <VBox.margin>
                   <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                </VBox.margin>

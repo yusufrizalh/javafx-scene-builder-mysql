@@ -1,14 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
+<?import javafx.geometry.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="sample.Dashboard"
-            prefHeight="400.0" prefWidth="600.0">
-
+<AnchorPane fx:id="anchorPaneLayout" prefHeight="300.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Dashboard">
+   <children>
+      <HBox prefHeight="50.0" prefWidth="600.0" style="-fx-background-color: #323499;">
+         <children>
+            <Label text="Menu" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <padding>
+                  <Insets left="20.0" top="10.0" />
+               </padding>
+            </Label>
+         </children>
+      </HBox>
+      <HBox layoutX="199.0" prefHeight="50.0" prefWidth="251.0">
+         <children>
+            <Label text="Tabel Data Peserta" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+         </children>
+         <padding>
+            <Insets left="30.0" top="10.0" />
+         </padding></HBox>
+      <VBox layoutY="50.0" prefHeight="250.0" prefWidth="200.0" style="-fx-background-color: #323499;">
+         <children>
+            <Button fx:id="btn_lihat_data" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" style="-fx-background-color: #ffffff;" text="Lihat Data" textAlignment="CENTER" textFill="#2215da">
+               <VBox.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="btn_tambah_data" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" style="-fx-background-color: #ffffff;" text="Tambah Data" textAlignment="CENTER" textFill="#2215da">
+               <VBox.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="btn_ubah_data" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" style="-fx-background-color: #ffffff;" text="Ubah Data" textAlignment="CENTER" textFill="#2215da">
+               <VBox.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="btn_hapus_data" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" style="-fx-background-color: #ffffff;" text="Hapus Data" textAlignment="CENTER" textFill="#2215da">
+               <VBox.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </VBox.margin>
+            </Button>
+         </children>
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding></VBox>
+   </children>
 </AnchorPane>
