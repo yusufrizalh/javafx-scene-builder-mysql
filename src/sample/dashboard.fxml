@@ -42,7 +42,7 @@
                   <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                </VBox.margin>
             </Button>
-            <Button fx:id="btn_ubah_data" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" style="-fx-background-color: #ffffff;" text="Ubah Data" textAlignment="CENTER" textFill="#2215da">
+            <Button fx:id="btn_ubah_data" mnemonicParsing="false" onAction="#ubahData" prefHeight="30.0" prefWidth="150.0" style="-fx-background-color: #ffffff;" text="Ubah Data" textAlignment="CENTER" textFill="#2215da">
                <VBox.margin>
                   <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                </VBox.margin>
